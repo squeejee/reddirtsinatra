@@ -2,7 +2,7 @@ require 'rubygems'
 require 'sinatra'
 
 get '/' do
-  "I am the root of stuff"
+  "Is the dirt really red here?"
 end
 
 get '/yo' do

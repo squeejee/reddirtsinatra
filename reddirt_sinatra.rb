@@ -2,7 +2,7 @@ require 'rubygems'
 require 'sinatra'
 
 get '/' do
-  "Is the dirt really red here?"
+  "<h2>Is the dirt really red here?</h2>"
 end
 
 get '/yo' do

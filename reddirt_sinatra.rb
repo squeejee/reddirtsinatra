@@ -1,10 +1,12 @@
 require 'rubygems'
 require 'sinatra'
 
+require 'haml'
+
 get '/' do
-  "<h2>Is the dirt really red here?</h2>"
+  haml :index
 end
 
 get '/yo' do
-  "YO!"
+  "<h2>YO!</h2>"
 end
